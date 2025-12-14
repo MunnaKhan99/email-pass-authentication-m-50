@@ -1,3 +1,9 @@
+/**
+ * Topic: React Router v6 layout routing
+ * Pattern: createBrowserRouter + Outlet
+ * Use case: Navbar layout with child routes
+ */
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -14,8 +20,8 @@ const router = createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: Home },
-      {path:"register",Component:Register},
-      {path:"login",Component:Login}
+      { path: "register", Component: Register },
+      { path: "login", Component: Login }
     ]
   }
 ])
