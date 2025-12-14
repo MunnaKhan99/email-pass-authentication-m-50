@@ -1,3 +1,9 @@
+/**
+ * Layout Component
+ * Shared UI: Navbar
+ * Renders child routes using <Outlet />
+ */
+
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import { Outlet } from 'react-router';
